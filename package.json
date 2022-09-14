@@ -1,6 +1,7 @@
 {
   "name": "amazon",
   "version": "0.1.0",
+  "homepage": "https://klevezt.github.io/amazon/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -16,8 +17,10 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -38,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
