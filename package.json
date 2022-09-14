@@ -1,7 +1,7 @@
 {
   "name": "amazon",
   "version": "0.1.0",
-  "homepage": "https://klevezt.github.io/amazon/",
+  "homepage": "https://klevezt.github.io/amazon-clone/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
